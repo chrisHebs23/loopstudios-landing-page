@@ -48,8 +48,8 @@ li {
   color: #fff;
   list-style: none;
   font-size: 30px;
-  font-weight: 300;
   text-transform: uppercase;
+  font-family: "Alata", sans-serif;
 }
 .nav-mobile-con {
   width: 100%;
@@ -59,7 +59,7 @@ li {
   justify-content: space-between;
 }
 .nav-laptop {
-  width: 35%;
+  width: 50%;
   display: flex;
 }
 .nav-laptop-con {
@@ -73,7 +73,7 @@ li {
 
 @media only screen and (min-width: 1000px) {
   .header-container {
-    margin: 30px 140px;
+    margin: 30px 100px;
     justify-content: baseline;
   }
 
