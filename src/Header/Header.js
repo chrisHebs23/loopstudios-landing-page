@@ -11,9 +11,15 @@ const Header = () => {
       setWidowWidth(window.innerWidth);
     };
     window.addEventListener("resize", handleResize);
-  }, []);
+    if (windowWidth > 1000) {
+      console.log("hit");
+      setOpen(true);
+    } else {
+      setOpen(false);
+    }
+  }, [windowWidth]);
 
-  const tabs = ["ABOUT", "CAREERS", "EVENTS", "PRODUCTS", "SUPPORT"];
+  const tabs = ["About", "Careers", "Events", "Products", "Support"];
 
   return (
     <div className="header-container">
@@ -57,21 +63,21 @@ const Header = () => {
             </svg>
           )
         ) : null}
-
-        {open && (
-          <nav className={windowWidth < 1000 ? "nav-mobile " : "nav-laptop"}>
-            <div
-              className={
-                windowWidth < 1000 ? "nav-mobile-con " : "nav-laptop-con "
-              }
-            >
-              {tabs.map((tab) => {
-                return <li>{tab}</li>;
-              })}
-            </div>
-          </nav>
-        )}
       </div>
+
+      {open && (
+        <nav className={windowWidth < 1000 ? "nav-mobile " : "nav-laptop"}>
+          <div
+            className={
+              windowWidth < 1000 ? "nav-mobile-con " : "nav-laptop-con "
+            }
+          >
+            {tabs.map((tab) => {
+              return <li>{tab}</li>;
+            })}
+          </div>
+        </nav>
+      )}
     </div>
   );
 };
