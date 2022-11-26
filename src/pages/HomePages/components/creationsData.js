@@ -1,42 +1,36 @@
 export const creations = [
   {
     name: "deep earth",
-    image_m: "../../../images/mobile/image-deep-earth.jpg",
-    image_d: "../../../images/desktop/image-deep-earth.jpg",
+    image_m: "deep-earth-m",
   },
   {
     name: "night arcade",
-    image_m: "../../../images/mobile/image-night-arcade.jpg",
-    image_d: "../../../images/desktop/image-night-arcade.jpg",
+    image_m: "night-arcade-m",
   },
   {
-    name: "soccer team",
-    image_m: "../../../images/mobile/image-deep-earth.jpg",
-    image_d: "../../../images/desktop/image-deep-earth.jpg",
+    name: "soccer team vr",
+    image_m: "soccer-team-m",
   },
+
   {
     name: "the grid",
-    image_m: "../../../images/mobile/image-grid.jpg",
-    image_d: "../../../images/desktop/image-grid.jpg",
+    image_m: "grid-m",
+    special: "special",
   },
   {
     name: "from up above vr",
-    image_m: "../../../images/mobile/image-from-above.jpg",
-    image_d: "../../../images/desktop/image-from-above.jpg",
+    image_m: "vr-m",
   },
   {
     name: "pocket borealis",
-    image_m: "../../../images/mobile/image-pocket-borealis.jpg",
-    image_d: "../../../images/desktop/image-pocket-borealis.jpg",
+    image_m: "borealis-m",
   },
   {
     name: "the curiosity",
-    image_m: "../../../images/mobile/image-curiosity.jpg",
-    image_d: "../../../images/desktop/image-curiosity.jpg",
+    image_m: "curiosity-m",
   },
   {
     name: "make it fisheye",
-    image_m: "../../../images/mobile/image-fisheye.jpg",
-    image_d: "../../../images/desktop/image-fisheye.jpg",
+    image_m: "fisheye-m",
   },
 ];

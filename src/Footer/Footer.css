@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container svg {
+  margin-bottom: 20px;
+}
+
+.footer-container li {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.social-and-rights {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
