@@ -4,7 +4,10 @@ import { creations } from "./creationsData";
 const CreationsSection = () => {
   return (
     <div className="creations">
-      <h2>Our Creations</h2>
+      <div className="title-button">
+        <h2>Our Creations</h2>
+        <button className="see-all-button">See All</button>
+      </div>
 
       <div className="creations-container">
         {creations.map((data) => (
@@ -17,7 +20,6 @@ const CreationsSection = () => {
           </div>
         ))}
       </div>
-      <button className="see-all-button">See All</button>
     </div>
   );
 };

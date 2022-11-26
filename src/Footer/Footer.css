@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 .footer-container svg {
   margin-bottom: 20px;
@@ -13,7 +14,7 @@
 .footer-container li {
   text-transform: capitalize;
   font-size: 1.2rem;
-  margin: 20px 0px;
+  margin: 15px 0px;
   text-align: center;
 }
 
@@ -21,6 +22,20 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-tabs {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  justify-content: space-between;
 }
 
 .social-icons {
@@ -30,4 +45,49 @@
   width: 70%;
   justify-content: space-evenly;
   margin-top: 40px;
+}
+
+.social-and-rights p {
+  color: hsl(0, 0%, 55%);
+  font-family: "Alata", sans-serif;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+  }
+
+  .logo-tabs {
+    height: auto;
+    width: 35%;
+  }
+
+  .logo-tabs svg {
+    margin-bottom: 30px;
+  }
+
+  .tabs-container {
+    flex-direction: row;
+  }
+  .social-and-rights {
+    width: 30%;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .social-icons {
+    width: 40%;
+    height: 10%;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .social-icons svg {
+    transform: scale(1.3);
+    margin-bottom: 0px;
+  }
 }

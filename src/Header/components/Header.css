@@ -60,7 +60,7 @@ li {
   justify-content: space-between;
 }
 .nav-laptop {
-  width: 50%;
+  width: 35%;
   display: flex;
 }
 .nav-laptop-con {
@@ -74,12 +74,13 @@ li {
 
 @media only screen and (min-width: 1000px) {
   .header-container {
-    margin: 30px 100px;
+    margin: 0px 140px;
     justify-content: baseline;
+    padding-top: 60px;
   }
 
   li {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 400;
     text-transform: capitalize;
   }

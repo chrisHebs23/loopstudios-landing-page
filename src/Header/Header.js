@@ -73,7 +73,7 @@ const Header = () => {
             }
           >
             {tabs.map((tab) => {
-              return <li>{tab}</li>;
+              return <li className="hover-effect">{tab}</li>;
             })}
           </div>
         </nav>
