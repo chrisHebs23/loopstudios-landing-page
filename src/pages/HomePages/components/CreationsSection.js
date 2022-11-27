@@ -19,6 +19,7 @@ const CreationsSection = () => {
               src={windowWidth < 1000 ? data.image_m : data.image_l}
               alt={data.name}
               className="creations-img"
+              loading="lazy"
             />
             <div className="img-div"></div>
             <h3>{data.name}</h3>
