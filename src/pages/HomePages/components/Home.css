@@ -174,7 +174,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 35%;
+    max-width: 40%;
     margin: 0px 140px;
     padding: 20px;
   }
@@ -260,7 +260,7 @@
   }
 
   .creation-bg h3 {
-    width: 55%;
+    width: 70%;
     height: auto;
     line-height: 2rem;
     font-size: 2rem;
