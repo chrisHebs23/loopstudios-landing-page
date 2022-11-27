@@ -6,11 +6,11 @@ import InfoSection from "./components/InfoSection";
 
 const HomePage = () => {
   return (
-    <>
+    <main>
       <HeroSection />
       <InfoSection />
       <CreationsSection />
-    </>
+    </main>
   );
 };
 
