@@ -20,7 +20,7 @@ const Header = () => {
   const tabs = ["About", "Careers", "Events", "Products", "Support"];
 
   return (
-    <header>
+    <nav>
       <div
         className={
           open && windowWidth < 1000
@@ -87,7 +87,7 @@ const Header = () => {
           </nav>
         )}
       </div>
-    </header>
+    </nav>
   );
 };
 
