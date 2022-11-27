@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/loopstudios-landing-page/static/css/main.5c00f9a6.css",
-    "main.js": "/loopstudios-landing-page/static/js/main.a65f06e5.js",
+    "main.css": "/loopstudios-landing-page/static/css/main.7d892f17.css",
+    "main.js": "/loopstudios-landing-page/static/js/main.5c1943eb.js",
     "static/css/294.25fc0ee8.chunk.css": "/loopstudios-landing-page/static/css/294.25fc0ee8.chunk.css",
     "static/js/294.37b5ed41.chunk.js": "/loopstudios-landing-page/static/js/294.37b5ed41.chunk.js",
-    "static/css/322.3dfe0316.chunk.css": "/loopstudios-landing-page/static/css/322.3dfe0316.chunk.css",
+    "static/css/322.a4bc4f97.chunk.css": "/loopstudios-landing-page/static/css/322.a4bc4f97.chunk.css",
     "static/js/322.100a4355.chunk.js": "/loopstudios-landing-page/static/js/322.100a4355.chunk.js",
     "static/js/787.6606bfd5.chunk.js": "/loopstudios-landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/image-hero.jpg": "/loopstudios-landing-page/static/media/image-hero.9b5aacead42e955824d3.jpg",
@@ -18,16 +18,16 @@
     "static/media/image-fisheye.jpg": "/loopstudios-landing-page/static/media/image-fisheye.ff97b54ec44101e44215.jpg",
     "static/media/image-pocket-borealis.jpg": "/loopstudios-landing-page/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
     "index.html": "/loopstudios-landing-page/index.html",
-    "main.5c00f9a6.css.map": "/loopstudios-landing-page/static/css/main.5c00f9a6.css.map",
-    "main.a65f06e5.js.map": "/loopstudios-landing-page/static/js/main.a65f06e5.js.map",
+    "main.7d892f17.css.map": "/loopstudios-landing-page/static/css/main.7d892f17.css.map",
+    "main.5c1943eb.js.map": "/loopstudios-landing-page/static/js/main.5c1943eb.js.map",
     "294.25fc0ee8.chunk.css.map": "/loopstudios-landing-page/static/css/294.25fc0ee8.chunk.css.map",
     "294.37b5ed41.chunk.js.map": "/loopstudios-landing-page/static/js/294.37b5ed41.chunk.js.map",
-    "322.3dfe0316.chunk.css.map": "/loopstudios-landing-page/static/css/322.3dfe0316.chunk.css.map",
+    "322.a4bc4f97.chunk.css.map": "/loopstudios-landing-page/static/css/322.a4bc4f97.chunk.css.map",
     "322.100a4355.chunk.js.map": "/loopstudios-landing-page/static/js/322.100a4355.chunk.js.map",
     "787.6606bfd5.chunk.js.map": "/loopstudios-landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c00f9a6.css",
-    "static/js/main.a65f06e5.js"
+    "static/css/main.7d892f17.css",
+    "static/js/main.5c1943eb.js"
   ]
 }
