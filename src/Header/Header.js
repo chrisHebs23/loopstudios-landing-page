@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
+import useWindowSize from "../hooks/windowSize";
 import "./components/Header.css";
 
 const Header = () => {
+  const windowWidth = useWindowSize();
   const [open, setOpen] = useState(false);
-  const [windowWidth, setWidowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    const handleResize = () => {
-      setWidowWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
     if (windowWidth > 1000) {
       setOpen(true);
     } else {
