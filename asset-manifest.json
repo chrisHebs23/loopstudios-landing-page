@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/loopstudios-landing-page/static/css/main.5c00f9a6.css",
-    "main.js": "/loopstudios-landing-page/static/js/main.2957b2ea.js",
+    "main.js": "/loopstudios-landing-page/static/js/main.1797fec6.js",
     "static/css/53.7274dae5.chunk.css": "/loopstudios-landing-page/static/css/53.7274dae5.chunk.css",
-    "static/js/53.a043b405.chunk.js": "/loopstudios-landing-page/static/js/53.a043b405.chunk.js",
+    "static/js/53.cede3e90.chunk.js": "/loopstudios-landing-page/static/js/53.cede3e90.chunk.js",
     "static/css/774.b81849e9.chunk.css": "/loopstudios-landing-page/static/css/774.b81849e9.chunk.css",
     "static/js/774.472ab52c.chunk.js": "/loopstudios-landing-page/static/js/774.472ab52c.chunk.js",
     "static/js/787.6606bfd5.chunk.js": "/loopstudios-landing-page/static/js/787.6606bfd5.chunk.js",
@@ -19,15 +19,15 @@
     "static/media/image-pocket-borealis.jpg": "/loopstudios-landing-page/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
     "index.html": "/loopstudios-landing-page/index.html",
     "main.5c00f9a6.css.map": "/loopstudios-landing-page/static/css/main.5c00f9a6.css.map",
-    "main.2957b2ea.js.map": "/loopstudios-landing-page/static/js/main.2957b2ea.js.map",
+    "main.1797fec6.js.map": "/loopstudios-landing-page/static/js/main.1797fec6.js.map",
     "53.7274dae5.chunk.css.map": "/loopstudios-landing-page/static/css/53.7274dae5.chunk.css.map",
-    "53.a043b405.chunk.js.map": "/loopstudios-landing-page/static/js/53.a043b405.chunk.js.map",
+    "53.cede3e90.chunk.js.map": "/loopstudios-landing-page/static/js/53.cede3e90.chunk.js.map",
     "774.b81849e9.chunk.css.map": "/loopstudios-landing-page/static/css/774.b81849e9.chunk.css.map",
     "774.472ab52c.chunk.js.map": "/loopstudios-landing-page/static/js/774.472ab52c.chunk.js.map",
     "787.6606bfd5.chunk.js.map": "/loopstudios-landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c00f9a6.css",
-    "static/js/main.2957b2ea.js"
+    "static/js/main.1797fec6.js"
   ]
 }
